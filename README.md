@@ -1,10 +1,41 @@
-a# STEP 8
+# Ex-04-Multivariate-Analysis
+
+## AIM
+To perform Multivariate EDA on the given data set.
+
+## Explanation:
+Exploratory data analysis is used to understand the messages within a dataset. This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
+
+## ALGORITHM:
+
+### STEP 1
+Import the built libraries required to perform EDA and outlier removal.
+
+### STEP 2
+Read the given csv file
+
+### STEP 3
+Convert the file into a dataframe and get information of the data.
+
+### STEP 4
+Return the objects containing counts of unique values using (value_counts()).
+
+### STEP 5
+Plot the counts in the form of Histogram or Bar Graph.
+
+### STEP 6
+Use seaborn the bar graph comparison of data can be viewed.
+
+### STEP 7
+Find the pairwise correlation of all columns in the dataframe.corr()
+
+### STEP 8
 Save the final data set into the file
 
 ## PROGRAM
 ```
-Name : poorna pavan.N
-Register Number : 212219040086
+Name : N Poornapavan
+Register Number : 2122219040086
 
 import pandas as pd
 import numpy as np
@@ -51,10 +82,10 @@ sns.heatmap(df.corr(),annot=True)
 ### DATA
 ![ds1](https://user-images.githubusercontent.com/93427345/192081855-93a0a135-2e83-426c-bf0b-9a5cee4417ea.PNG)
 
-### Data.info
+### DATA INFORMATION
 ![ds2](https://user-images.githubusercontent.com/93427345/192081863-502f4e6f-dbc0-43ac-a56a-b67cdfdeaacf.PNG)
 
-### Data.describe
+### DATA DESCRIBE
 ![ds3](https://user-images.githubusercontent.com/93427345/192081866-1eaf8f71-77c1-4d44-9fbd-badc5eb54976.PNG)
 
 ### Checking the null values and Cleaning it
@@ -65,10 +96,10 @@ sns.heatmap(df.corr(),annot=True)
 ### DATA TYPES
 ![ds6](https://user-images.githubusercontent.com/93427345/192081875-cd5f61b7-a6e7-4b7d-a747-dc97b19dea7a.PNG)
 
-### SCATTER PLOT
+### SCATTERPLOT
 ![ds7](https://user-images.githubusercontent.com/93427345/192081882-1b088cb0-ee09-4334-8fa6-77464adbf84a.PNG)
 
-### BAR PLOT
+### BARPLOT
 ![ds8](https://user-images.githubusercontent.com/93427345/192081890-828a4d08-bdce-4c45-b4cc-902510b8e335.PNG)
 ![ds9](https://user-images.githubusercontent.com/93427345/192081895-94ab27ad-2785-4f74-b928-efb3244f4f07.PNG)
 ![ds10](https://user-images.githubusercontent.com/93427345/192081899-53b88f37-48b0-4e53-9f2c-8ad7cc70fc20.PNG)
